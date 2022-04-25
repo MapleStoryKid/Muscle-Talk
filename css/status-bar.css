@@ -10,6 +10,13 @@
   color:white;
   text-shadow: 4px 4px red;
 }
+.status-bar__column:first-child i{
+  color: white;
+  opacity: 0.45;
+
+
+
+}
 .status-bar__column:nth-child(2) {
   display: flex;
   justify-content: center;
