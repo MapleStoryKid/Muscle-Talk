@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings - Kokoa Talk</title>
+  </head>
+
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>NO SERVICE</span>
+        <i class="fa-solid fa-wifi"></i>
+
+        <!--To do: Wifi icon-->
+      </div>
+      <div class="status-bar__column">
+        <span> 18:43 </span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <!--To do: Battery icon-->
+        <i class="fa-solid fa-bolt"></i>
+        <!--To do:Lightning icon-->
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fa-solid fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Ronnie Coleman</h1>
+      </div>
+      <div class="alt-header__column">
+        <span> <i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span> <i class="fa-solid fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday,June 30, 2020</div>
+      <div class="message-row">
+        <img
+          src="https://th.bing.com/th/id/R.73b0afdcccf8f45b9e0a45486acdb838?rik=XGUcanERDNjoAg&riu=http%3a%2f%2fcfile223.uf.daum.net%2fimage%2f2146C14E51F70EAD2DA6B7&ehk=0uSKWcFGj2ASv%2bKS3afNSGUtQTpwvIqPEDn%2fk7xLaf8%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
+        />
+        <div class="message-row__content">
+          <span class="message__author"> Ronnie Coleman </span>
+          <div class="message__info">
+            <span class="message__bubble"> 저녁에 운동 ㄱ?</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble"> ㄱㄱㄱㄱ</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-solid fa-circle-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="write a message..." />
+        <i class="fa-solid fa-face-grin-wink"></i>
+        <button>
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>
+        <i class="fas fa-exclamation-triangle"></i>Narrow your screen!<i
+          class="fas fa-exclamation-triangle"
+        ></i>
+      </span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/99b96296a9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+header{
+  color:white;
+}
+
+.main-screen{
+  color: white;
+}
+.alt-header__title{
+  text-shadow: 5px 5px red;
+  font-weight: 800;
+}
+
+.settings__setting {
+  padding: 20px 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 18px;
+  font-size: 22px;
+}
+
+.settings__setting-column{
+    font-weight: 700;
+
+
+}
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}

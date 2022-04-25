@@ -1,0 +1,174 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding-bottom: 25px;
+  color: white;
+
+}
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-icons__icon i {
+  font-size: 35px;
+}
+
+.find-icons__icon span {
+  margin-top: 18px;
+  font-weight: 550;
+}
+
+.recommended-friends {
+  padding: 25px 0px;
+  border-bottom: red;
+  color: white;
+}
+
+.recommended-friends__title {
+  font-size: 16px;
+  font-weight: 800;
+
+}
+
+.recommended-friends span {
+  margin: 80px 0px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.open-chat__header h4{
+   font-weight: 800;
+
+
+}
+
+.open-chat__header span {
+  opacity: 0.6;
+
+}
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 7px;
+  color: white;
+}
+
+.open-post__hashtags {
+  text-transform: uppercase;
+  opacity: 0.6;
+  color: white;
+  font-size: 13px;
+}
+
+.open-post__members {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.open-post__members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.open-post__member-count {
+  opacity: 0.6;
+  font-size: 14px;
+  color: white;
+}
+
+.divider {
+  width: 1px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.open-post__member-status {
+  color: white;
+  opacity: 1;
+ 
+}
+
+.open-post__member-status{
+
+  animation: activeLogo 2s ease-in-out infinite;
+}
+
+.open-post__photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.open-post__photo {
+  position: relative;
+}
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 14px;
+}
+
+.open-post__heart-count span {
+  margin-left: 3px;
+}
+
+@keyframes activeLogo {
+  0% {
+    color:fuchsia;
+    trasnform: none;
+  }
+
+  50% {
+    color:deepskyblue;
+  }
+
+  100% {
+    color: fuchsia;
+  }
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    trasnform: none;
+  }
+  50% {
+    color: tomato;
+  }
+  100% {
+    color: white;
+  }
+}
+
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}

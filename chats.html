@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - Kokoa Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>NO SERVICE</span>
+        <i class="fa-solid fa-wifi"></i>
+
+        <!--To do: Wifi icon-->
+      </div>
+      <div class="status-bar__column">
+        <span> 18:43 </span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <!--To do: Battery icon-->
+        <i class="fa-solid fa-bolt"></i>
+        <!--To do:Lightning icon-->
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span> <i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span> <i class="fa-regular fa-comment-dots fa-lg"></i> </span>
+        <span> <i class="fa-brands fa-napster fa-lg"></i></span>
+        <sapn> <i class="fa-solid fa-gear fa-lg"></i> </sapn>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://th.bing.com/th/id/R.73b0afdcccf8f45b9e0a45486acdb838?rik=XGUcanERDNjoAg&riu=http%3a%2f%2fcfile223.uf.daum.net%2fimage%2f2146C14E51F70EAD2DA6B7&ehk=0uSKWcFGj2ASv%2bKS3afNSGUtQTpwvIqPEDn%2fk7xLaf8%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Ronnie Coleman</h4>
+
+              <h6 class="user-component__subtitle">저녁에 운동 ㄱ?</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time"> 09:21 AM</span>
+            <div class="nav__badge">1</div>
+          </div>
+        </div>
+      </a>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification nav__badge">1</span>
+            <i class="fa-solid fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>
+        <i class="fas fa-exclamation-triangle"></i>Narrow your screen!<i
+          class="fas fa-exclamation-triangle"
+        ></i>
+      </span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/99b96296a9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+@import "reset.css";
+@import "status-bar.css";
+@import "login.css";
+@import "nav-bar.css";
+@import "screen-header.css";
+@import "friends.css";
+@import "user-component.css";
+@import "badge.css";
+@import "find.css";
+@import "icon-row.css";
+@import "more.css";
+@import "alt-screen-header.css";
+@import "settings.css";
+@import "chat.css";
+@import "no-mobile.css";
+body {
+  color: #2e363e;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.welcome-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+
+}
+.welcome-header__title {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 800;
+  text-shadow: 6px 6px red;
+}
+.welcome-header__text {
+  width: 60%;
+  opacity: 0.7;
+}
+
+.main-screen {
+  padding: 0px 25px;
+}
